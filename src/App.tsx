@@ -1,17 +1,22 @@
 import { useState } from 'react'
 import NavBar from './components/NavBar';
 import CategoryButtons from './components/CategoryButtons';
+import RedditCard from './components/RedditCard';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
       <NavBar />
 
       <CategoryButtons />
+
+      <div className="max-w-xl mx-auto">
+        <RedditCard />
+        <RedditCard />
+      </div>
     </div>
   )
 }
 
-export default App
+export default App;
