@@ -5,7 +5,7 @@ import { HiBookmark } from 'react-icons/hi'
 function RedditCard() { 
 
     return (
-        <div className="border mt-4">
+        <div className="border mt-4 p-3 bg-white">
             <p className="text-sm">Subreddit image, posted by, and timestamp</p>
             <h2 className="text-2xl font-bold">Title of the Reddit post</h2>
             <p className="text-lg">Body of the Reddit post</p>

@@ -6,7 +6,7 @@ import RedditCard from './components/RedditCard';
 function App() {
 
   return (
-    <div className="App">
+    <div className="App h-screen bg-slate-200">
       <NavBar />
 
       <CategoryButtons />
